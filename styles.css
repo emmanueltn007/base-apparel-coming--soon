@@ -1,0 +1,43 @@
+* {
+    outline: 1px solid red;
+}
+
+body, html {
+    font-family: Josefin Sans;
+    background: url('./images/bg-pattern-desktop.svg');
+    height: 100vh;
+}
+
+header, 
+.container {
+    padding: 50px;
+}
+
+.content {
+    
+}
+
+h1 {
+    letter-spacing: 0.3rem;
+}
+
+.heading-1 { font-weight: 300; }
+
+.heading-2 { font-weight: 400; }
+
+p {
+    color: rgb(206, 151, 151);
+}
+
+.email-input {
+    border-radius: 25px;
+    border: 1px solid yellow;
+    padding: 10px 25px;
+}
+
+.arrow-enter {
+    height: 30px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
