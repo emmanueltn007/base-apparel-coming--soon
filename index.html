@@ -22,10 +22,14 @@
       <h1 class="heading-2">SOON</h1>
       <p>Hello fellow shoppers! We're currently building our new fashion store. 
       Add your email below to stay up-to-date with announcements and our launch deals.</p>
-      <div class="email-and-button">
-        <input type="text" placeholder="Email Address" class="email-input">
-        <button type="submit" class="arrow-enter">
-          <img src="./images/icon-arrow.svg">
+      <form class="email-and-button" id="js-email-form">
+        <input type="email" placeholder="Email Address" class="email-input" id="js-email">
+        <p id="js-error-message"></p>
+        <button type="submit"class="arrow-enter">
+          Submit
+          <!--
+          <img class="arrow-enter" id="submit-btn" src="./images/icon-arrow.svg">
+          -->
         </button>
         <!--
         <footer>
@@ -35,7 +39,7 @@
           </p>
         </footer>
         -->
-      </div>
+      </form>
     </div>
 
     <div class="img-cover">
