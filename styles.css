@@ -43,19 +43,19 @@ p {
 }
 
 .email-input {
-    border: 1px solid gray;
+    border: 0.1rem solid gray;
     border-radius: 25px;
     padding: 10px 45px 10px 15px;
     box-sizing: border-box;
 }
 
 .arrow-enter {
+    /*
     position: absolute;
     right: 0;
     top: 50%;
-    transform: translateY(-50%);
-    height: 38px;
-    width: 60px;
+    transform: translateY(-50%); */
+    padding: 10px 25px;
     border: none;
     border-radius: 30px;
     background-color: hsl(0, 74%, 74%);
@@ -64,8 +64,10 @@ p {
 
 .arrow-enter:hover {
     box-shadow: -5px 5px 8px rgb(110, 110, 110);
-    height: 39px;
-}
+    padding-top: 12px;
+    padding-bottom: 12px;
+} 
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+
+/*.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }*/
